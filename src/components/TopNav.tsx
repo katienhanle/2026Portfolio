@@ -6,8 +6,7 @@ import { useRouter } from "next/navigation";
 import { useEffect, useState, ViewTransition } from "react";
 import { emitHomeDeckExit } from "@/lib/pageExitBus";
 
-const RESUME_URL =
-  "/Resume_Katie_Nhan_Le_Product_Designer_2026-08__1_20260814-32-113ydo20260814-32-369jd7.pdf";
+const RESUME_URL = "/Resume_Katie_Nhan_Le_Product_Designer_2026-09.pdf";
 const EXIT_DURATION = 500;
 
 function useScrolledPastTop(threshold = 40) {
